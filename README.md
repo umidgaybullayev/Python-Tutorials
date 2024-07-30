@@ -68,7 +68,7 @@ Windows
 
     ![alt text](image-3.png)
 
-    - 
+    - `Setup was successfull` muvaffaqiyatli o'rnatildi.
 
     ![alt text](image-4.png)
 
