@@ -26,3 +26,4 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 - **Kodni yozish:** Dastlab, dasturchi `.py` kengaytmali fayllarda `Python` kodini yozadi.
 - **Interpretator orqali bajarish:** Yozilgan kod `Python interpretatori` yordamida bevosita bajariladi. Masalan, `python script.py` buyrug‘ini kiritish orqali.
 - **Bytecodega aylantirish:** `Python interpretatori` dastlab `Python` kodini `bytecodega` aylantiradi (`.pyc` fayllari). Bu jarayon tezroq ishlashga yordam beradi.
+- **PyVMda bajarish:** Bytecode Python Virtual Mashinasida `(PyVM)` bajariladi. `PyVM` bytecodeni mashina kodi (kompyuter tushunadigan til) ga aylantiradi va operatsion tizim orqali bajaradi.
