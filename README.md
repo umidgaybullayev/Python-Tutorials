@@ -59,5 +59,5 @@ Windows
 3. O‘rnatishni tekshirish:
     - `Command Prompt` yoki `PowerShell`ni oching.
     - `python --version` yoki `python -V` buyrug‘ini kiriting. Bu sizga o‘rnatilgan Python versiyasini ko‘rsatadi.
-    
-    ![alt text](image-1.png)
+
+    ![alt text](image-2.png)
