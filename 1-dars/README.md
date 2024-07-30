@@ -2,6 +2,10 @@
 
 ## 1-dars O'zgaruvchilar va ma'lumot turlari.
 
+- Mavzular:
+    - O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).
+    - O'zgaruvchilarni e'lon qilish va ularga qiymat berish.
+
 >[!NOTE]
 > Python dasturlash tilida o'zgaruvchilar va ma'lumot turlari dasturlarni tuzishda juda muhim. Quyida o'zgaruvchilar va ularning turli ma'lumot turlari haqida ma'lumot beriladi.
 
