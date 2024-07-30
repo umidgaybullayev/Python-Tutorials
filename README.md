@@ -55,9 +55,14 @@ Windows
     - Yuklab olingan `.exe` faylini ishga tushiring.
 
     ![alt text](image-1.png)
-    
+
     - `Add Python to PATH` katagiga belgi qo‘ying. Bu belgi Python'ni kompyuteringizdagi barcha joylarda ishlatishga imkon beradi.
+
+    ![alt text](2.png)
+
     - `Install Now` tugmasini bosing va o‘rnatishni yakunlang.
+
+    ![alt text](1.png)
 
 3. O‘rnatishni tekshirish:
     - `Command Prompt` yoki `PowerShell`ni oching.
