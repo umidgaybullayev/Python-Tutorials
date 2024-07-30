@@ -10,7 +10,7 @@
 ### Pythonning asosiy xususiyatlari:
 - **Sodda va tushunarli sintaksis:** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
 
-- **Interpretaorlangan til:** Python interpretator orqali bajariladi, ya'ni kod yozilganidan so‘ng darhol ishlatilishi mumkin, kompilyatsiya talab qilinmaydi.
+- **Interpretatorlangan til:** Python interpretator orqali bajariladi, ya'ni kod yozilganidan so‘ng darhol ishlatilishi mumkin, kompilyatsiya talab qilinmaydi.
 
 - **Ko‘p platformaliligi:** Python ko‘pgina operatsion tizimlarda ishlaydi, masalan, `Windows`, `MacOS`, va `Linux`.
 
