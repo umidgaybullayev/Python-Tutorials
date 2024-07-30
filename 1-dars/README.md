@@ -3,7 +3,7 @@
 ## 1-dars O'zgaruvchilar va ma'lumot turlari.
 
 - Mavzular:
-    - [O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).](O'zgaruvchi)
+    - O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).
     - O'zgaruvchilarni e'lon qilish va ularga qiymat berish.
 
 >[!NOTE]
@@ -11,7 +11,7 @@
 
 ### O'zgaruvchi
 
-O'zgaruvchi - bu ma'lumotlarni saqlash uchun foydalaniladigan nomlangan joy. Python'da o'zgaruvchi yaratish va unga qiymat berish juda oson:
+**O'zgaruvchi** - bu ma'lumotlarni saqlash uchun foydalaniladigan nomlangan joy. `Python`da o'zgaruvchi yaratish va unga qiymat berish juda oson:
 
 ```python
 x = 5 # Butun son (int)
