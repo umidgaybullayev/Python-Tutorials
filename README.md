@@ -47,4 +47,5 @@ Windows
 1. Pythonni yuklab olish:
     - [Pythonni rasmiy web-saytiga](https://www.python.org/) kiring.
     - `Downloads` bo‘limiga o‘ting va `Windows` uchun oxirgi barqaror versiyasini yuklab oling.
+    
     ![alt text](image.png)
