@@ -19,3 +19,8 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 - Obyektga yo‘naltirilgan dasturlash: Python obyektga yo‘naltirilgan dasturlashni qo‘llab-quvvatlaydi, bu esa katta dasturlarni tuzishni osonlashtiradi.
 
 - Moslashuvchan va kengaytirilishi mumkin: Pythonni boshqa tillar bilan birlashtirish yoki maxsus kutubxonalar orqali kengaytirish mumkin.
+
+
+### Python qanday ishlaydi?
+
+- **Kodni yozish:** Dastlab, dasturchi .py kengaytmali fayllarda Python kodini yozadi.
