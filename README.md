@@ -23,4 +23,4 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 
 ### Python qanday ishlaydi?
 
-- **Kodni yozish:** Dastlab, dasturchi .py kengaytmali fayllarda Python kodini yozadi.
+- **Kodni yozish:** Dastlab, dasturchi `.py` kengaytmali fayllarda Python kodini yozadi.
