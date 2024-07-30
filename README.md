@@ -47,5 +47,10 @@ Windows
 1. Pythonni yuklab olish:
     - [Pythonni rasmiy web-saytiga](https://www.python.org/) kiring.
     - `Downloads` bo‘limiga o‘ting va `Windows` uchun oxirgi barqaror versiyasini yuklab oling.
-    
+
     ![alt text](image.png)
+
+2. Pythonni o‘rnatish:
+    - Yuklab olingan `.exe` faylini ishga tushiring.
+    - `Add Python to PATH` katagiga belgi qo‘ying. Bu belgi Python'ni kompyuteringizdagi barcha joylarda ishlatishga imkon beradi.
+    - `Install Now` tugmasini bosing va o‘rnatishni yakunlang.
