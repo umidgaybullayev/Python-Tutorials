@@ -45,4 +45,4 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 #### Python O‘rnatilishi:
 Windows
 1. Pythonni yuklab olish:
-    -[Pythonni rasmiy web-saytiga](https://www.python.org/) kiring.
+    - [Pythonni rasmiy web-saytiga](https://www.python.org/) kiring.
