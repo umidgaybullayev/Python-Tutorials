@@ -64,6 +64,8 @@ Windows
 
     ![alt text](1.png)
 
+    ![alt text](image-3.png)
+
 3. O‘rnatishni tekshirish:
     - `Command Prompt` yoki `PowerShell`ni oching.
     - `python --version` yoki `python -V` buyrug‘ini kiriting. Bu sizga o‘rnatilgan Python versiyasini ko‘rsatadi.
