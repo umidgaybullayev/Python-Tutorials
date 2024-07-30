@@ -3,7 +3,7 @@
 ## 1-dars O'zgaruvchilar va ma'lumot turlari.
 
 - Mavzular:
-    - O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).
+    - [O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).][O'zgaruvchi]
     - O'zgaruvchilarni e'lon qilish va ularga qiymat berish.
 
 >[!NOTE]
