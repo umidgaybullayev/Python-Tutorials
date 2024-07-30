@@ -64,5 +64,5 @@ Windows
 
 ### `Hello, World!` dasturini yozish.
 ```python
-    print("Hello World!")
+print("Hello World!")
 ```
