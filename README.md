@@ -33,7 +33,7 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 
 - **Veb-dasturlash:** [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/3.0.x/) kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
 - **Ilmiy hisob-kitoblar va ma'lumotlar tahlili:** [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [SciPy](https://scipy.org/), [matplotlib](https://matplotlib.org/) kabi kutubxonalar yordamida.
-- **Sun'iy intellekt va mashinani o‘rganish:** `TensorFlow`, `Keras`, `PyTorch` kabi kutubxonalar yordamida.
+- **Sun'iy intellekt va mashinani o‘rganish:** [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [PyTorch](https://pytorch.org/) kabi kutubxonalar yordamida.
 - **Avtomatlashtirish va skript yozish:** Turli xil vazifalarni avtomatlashtirish uchun.
-- **O'yin dasturlash:** `Pygame` kabi kutubxonalar yordamida.
+- **O'yin dasturlash:** [Pygame](https://www.pygame.org/news) kabi kutubxonalar yordamida.
 - 
