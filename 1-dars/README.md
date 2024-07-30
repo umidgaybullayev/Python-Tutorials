@@ -15,3 +15,4 @@ y = 3.14 # Haqiqiy son (float)
 name = "Alice"  # Matn (str)
 is_student = True  # Mantiqiy qiymat (bool)
 ```
+
