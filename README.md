@@ -27,3 +27,9 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 - **Interpretator orqali bajarish:** Yozilgan kod `Python interpretatori` yordamida bevosita bajariladi. Masalan, `python script.py` buyrug‘ini kiritish orqali.
 - **Bytecodega aylantirish:** `Python interpretatori` dastlab `Python` kodini `bytecodega` aylantiradi (`.pyc` fayllari). Bu jarayon tezroq ishlashga yordam beradi.
 - **PyVMda bajarish:** Bytecode Python Virtual Mashinasida `(PyVM)` bajariladi. `PyVM` bytecodeni mashina kodi (kompyuter tushunadigan til) ga aylantiradi va operatsion tizim orqali bajaradi.
+
+
+### Pythonning qo‘llanish sohalari:
+
+- **Veb-dasturlash:** `Django`, `Flask` kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
+- **Ilmiy hisob-kitoblar va ma'lumotlar tahlili:** `NumPy`, `pandas`, `SciPy`, `matplotlib` kabi kutubxonalar yordamida.
