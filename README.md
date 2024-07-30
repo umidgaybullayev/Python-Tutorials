@@ -36,3 +36,8 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 - **Sun'iy intellekt va mashinani o‘rganish:** [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [PyTorch](https://pytorch.org/) kabi kutubxonalar yordamida.
 - **Avtomatlashtirish va skript yozish:** Turli xil vazifalarni avtomatlashtirish uchun.
 - **O'yin dasturlash:** [Pygame](https://www.pygame.org/news) kabi kutubxonalar yordamida.
+
+
+### Python Muhiti va O‘rnatish:
+>[!NOTE]
+> Python dasturlash tilida dasturlashni boshlash uchun sizga Python interpretatorini kompyuteringizga o‘rnatish kerak bo‘ladi. Pythonning rasmiy veb-saytida Pythonning oxirgi versiyasini yuklab olish mumkin. Shuningdek, muhitni boshqarish va kod yozish uchun turli vositalar va muharrirlar mavjud.
