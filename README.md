@@ -14,7 +14,7 @@
 
 - **Ko‘p platformaliligi:** Python ko‘pgina operatsion tizimlarda ishlaydi, masalan, `Windows`, `MacOS`, va `Linux`.
 
-- **Keng kutubxona to‘plamlari:** Pythonda ko‘plab tayyor kutubxonalar mavjud bo‘lib, ular turli sohalarda, masalan, veb-dasturlash, ilmiy hisob-kitoblar, sun’iy intellekt va boshqalarda qo‘llaniladi.
+- **Keng kutubxona to‘plamlari:** Pythonda ko‘plab tayyor kutubxonalar mavjud bo‘lib, ular turli sohalarda, masalan, `veb-dasturlash`, `ilmiy hisob-kitoblar`, `sun’iy intellekt` va boshqalarda qo‘llaniladi.
 
 - **Obyektga yo‘naltirilgan dasturlash:** Python obyektga yo‘naltirilgan dasturlashni qo‘llab-quvvatlaydi, bu esa katta dasturlarni tuzishni osonlashtiradi.
 
