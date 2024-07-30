@@ -64,7 +64,13 @@ Windows
 
     ![alt text](1.png)
 
+    - Indikator to'lishini kutamiz.
+
     ![alt text](image-3.png)
+
+    - 
+
+    ![alt text](image-4.png)
 
 3. O‘rnatishni tekshirish:
     - `Command Prompt` yoki `PowerShell`ni oching.
