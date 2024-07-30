@@ -61,3 +61,8 @@ Windows
     - `python --version` yoki `python -V` buyrug‘ini kiriting. Bu sizga o‘rnatilgan Python versiyasini ko‘rsatadi.
 
     ![alt text](image-2.png)
+
+### `Hello, World!` dasturini yozish.
+```python
+    print("Hello World!")
+```
