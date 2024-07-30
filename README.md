@@ -41,3 +41,7 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 ### Python Muhiti va O‘rnatish:
 >[!NOTE]
 > Python dasturlash tilida dasturlashni boshlash uchun sizga Python interpretatorini kompyuteringizga o‘rnatish kerak bo‘ladi. Pythonning rasmiy veb-saytida Pythonning oxirgi versiyasini yuklab olish mumkin. Shuningdek, muhitni boshqarish va kod yozish uchun turli vositalar va muharrirlar mavjud.
+
+#### Python O‘rnatilishi:
+Windows
+1. [Pythonni rasmiy web-saytiga](https://www.python.org/) kiring.
