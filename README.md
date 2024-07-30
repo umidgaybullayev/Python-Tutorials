@@ -31,7 +31,7 @@ Python — yuqori darajadagi, umumiy maqsadli dasturlash tili bo‘lib, o‘zini
 
 ### Pythonning qo‘llanish sohalari:
 
-- **Veb-dasturlash:** `Django`, `Flask` kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
+- **Veb-dasturlash:** [Django](https://www.djangoproject.com/), `Flask` kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
 - **Ilmiy hisob-kitoblar va ma'lumotlar tahlili:** `NumPy`, `pandas`, `SciPy`, `matplotlib` kabi kutubxonalar yordamida.
 - **Sun'iy intellekt va mashinani o‘rganish:** `TensorFlow`, `Keras`, `PyTorch` kabi kutubxonalar yordamida.
 - **Avtomatlashtirish va skript yozish:** Turli xil vazifalarni avtomatlashtirish uchun.
