@@ -156,17 +156,17 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     ### STRING METODLARI
     Python dasturlash tilida, stringlar ustida turli xil operatsiyalarni bajarish uchun bir qancha o'rnatilgan metodlar mavjud. Quyida eng ko'p qo'llaniladigan string metodlari va ularning misollari keltirilgan:
 
-    1. `.upper()` - Matndagi barcha harflarni katta harfga aylantiradi.
+1. `.upper()` - Matndagi barcha harflarni katta harfga aylantiradi.
     ```python
     text = "hello"
     print(text.upper()) #HELLO
     ```
-    2. `.lower()` - Matndagi barcha harflarni kichik harfga aylantiradi.
+2. `.lower()` - Matndagi barcha harflarni kichik harfga aylantiradi.
     ```python
     text = "HELLO"
     print(text.lower()) #hello
     ```
-    3. `.capitalize()` - Matnning birinchi harfini katta harfga, qolganlarini kichik harfga aylantiradi.
+3. `.capitalize()` - Matnning birinchi harfini katta harfga, qolganlarini kichik harfga aylantiradi.
     ```python
     text = "hello world"
     print(text.capitalize()) # Hello world
