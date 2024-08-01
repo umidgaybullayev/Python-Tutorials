@@ -29,8 +29,8 @@ print(is_student)
 ```
 
 Natija:
-5
-3.14
-Alice
-True
+`5`
+`3.14`
+`Alice`
+`True`
 
