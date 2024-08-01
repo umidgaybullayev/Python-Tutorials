@@ -102,7 +102,7 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     familiya = "G'aybullayev"
     print(ism + familiya)
     ```
-    **Natija:** `Umid G'aybullayev`
+    **Natija:** `UmidG'aybullayev`
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
