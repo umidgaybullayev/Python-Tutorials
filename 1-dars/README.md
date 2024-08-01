@@ -136,6 +136,13 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     `!` <br>
     `Hello`
 
+    ### STRINGLARNI KO'PAYTIRISH
+    ```python
+    text = "Hello"
+    text_repeated = text * 3
+    print(text_repeated)
+    ```
+    **Natija:** `HelloHelloHello`
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
