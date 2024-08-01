@@ -9,7 +9,7 @@
 >[!NOTE]
 > Python dasturlash tilida o'zgaruvchilar va ma'lumot turlari dasturlarni tuzishda juda muhim. Quyida o'zgaruvchilar va ularning turli ma'lumot turlari haqida ma'lumot beriladi.
 
-### O'zgaruvchi
+### O'zgaruvchilar
 
 **O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy. `Python`da o'zgaruvchi yaratish va unga qiymat berish juda oson:
 
@@ -33,3 +33,12 @@ Natija: <br>
 `3.14` <br>
 `Alice` <br>
 `True` <br>
+
+O'zgaruvchi (variable) diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
+
+```python
+ism = 'Alisher'
+print(ism)
+ism = "Muhammad"
+print(ism)
+```
