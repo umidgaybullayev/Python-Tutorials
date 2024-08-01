@@ -15,10 +15,22 @@
 
 ![alt text](images/image.png)
 
+Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va ularga har xil ma'lumot yukladik.
+
 ```python
 x = 5 # Butun son (int)
 y = 3.14 # Haqiqiy son (float)
 name = "Alice"  # Matn (str)
 is_student = True  # Mantiqiy qiymat (bool)
+print(x)
+print(y)
+print(name)
+print(is_student)
 ```
+
+Natija:
+5
+3.14
+Alice
+True
 
