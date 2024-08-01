@@ -79,7 +79,8 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
-- Pythonda `sequence` (ketma-ketlik) ma'lumot turlari turli xil elementlarni tartiblangan shaklda saqlash uchun ishlatiladi. Asosiy `sequence` turlari quyidagilar:
+- Pythonda `sequence types` (ketma-ketlik) ma'lumot turlari turli xil elementlarni tartiblangan shaklda saqlash uchun ishlatiladi. Asosiy `sequence` turlari quyidagilar:
     - **List(list):** Tartiblangan va o'zgaruvchan ma'lumotlar to'plami. Masalan: `my_list = [1, 'Hello', True, '5.6']`
     - **Tuple(tuple):** Tartiblangan, lekin o'zgarmas ma'lumotlar to'plami. Masalan: `my_tuple = (1, 2, 3, 4, 5)`
-    - **Range(range):** Ketma-ket sonlar intervalini ifodalaydi. Masalan: `range(1, 11)`
+    - **Range(range):** `Ketma-ket` sonlar intervalini ifodalaydi. Masalan: `range(1, 11)`
+- Pythonda `mapping types` ma'lumot turi `kalit-qiymat` juftlari ko'rinishida ma'lumotlarni saqlash uchun ishlatiladi. Pythonda asosiy mapping ma'lumot turi bu **dictionary(dict)** hisoblanadi. `Dictionary` - kalit (`key`) va `qiymat` (value) juftlaridan tashkil topgan tartibsiz ma'lumotlar to'plami.
