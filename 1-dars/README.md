@@ -71,6 +71,8 @@ Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
 
 ## MA'LUMOT TURLARI
-Python dasturlash tilida 8ta ma'lumot turi bor, ular quyidagilar:
+Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
+
+- String(str) - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello", 'world', "123"`
