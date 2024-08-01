@@ -102,7 +102,7 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     familiya = "G'aybullayev"
     print(ism + familiya)
     ```
-    **Natija:** `UmidG'aybullayev`
+    **Natija:** `UmidG'aybullayev` <br>
     Yuqoridagi kodimizda ism va familiya qo'shilib qoldi, uni to'g'irlash uchun quyidagi ko'rinishda yozamiz:
     ```python
     ism = "Umid"
