@@ -75,4 +75,5 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
 
-- String(str) - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
+- `String(str)` - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
+- `Number` - Number ma'lumot turi 3ga bo'linadi.
