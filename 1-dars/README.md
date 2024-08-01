@@ -42,3 +42,9 @@ print(ism)
 ism = "Muhammad"
 print(ism)
 ```
+
+Natija: <br>
+`Alisher`
+`Muhammad`
+
+Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
