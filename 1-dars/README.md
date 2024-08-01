@@ -72,4 +72,5 @@ Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 
 ## MA'LUMOT TURLARI
 Python dasturlash tilida 8ta ma'lumot turi bor, ular quyidagilar:
+
 ![alt text](images/data_types.png)
