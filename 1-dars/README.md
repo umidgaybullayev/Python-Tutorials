@@ -52,3 +52,5 @@ Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad
 ## O'ZGARUVCHILARNI NOMLASH
 > [!CAUTION]
 > O'zgaruvchilarga nom berishda quyidagi qoidalarga amal qiling:
+> - O'zgaruvchi nomi harf yoki pastki chiziq (`_`) bilan boshlanishi kerak
+> - O'zgaruvchi nomi raqam bilan boshlanishi mumkin emas
