@@ -76,6 +76,20 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 ![alt text](images/data_types.png)
 
 - **String(str)** - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
+    ```python
+    # ikkitalik qo'shtirnoqlar bilan
+    text = "Hello world"
+
+    # bittalik qo'shtirnoqlar bilan
+    text = 'Hello world'
+
+    # Ko'p qatorli stringlar uchlik qo'shtirnoqlar bilan
+    text = """This is a
+    multiline string."""
+
+    text = '''This is also a
+    multiline string.'''
+    ```
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
