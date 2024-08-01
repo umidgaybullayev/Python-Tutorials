@@ -28,9 +28,8 @@ print(name)
 print(is_student)
 ```
 
-Natija:
-`5`
-`3.14`
-`Alice`
-`True`
-
+Natija: <br>
+`5` <br>
+`3.14` <br>
+`Alice` <br>
+`True` <br>
