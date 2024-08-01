@@ -32,7 +32,7 @@ Natija: <br>
 `5` <br>
 `3.14` <br>
 `Alice` <br>
-`True` <br>
+`True`
 
 O'zgaruvchi (variable) diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
@@ -44,7 +44,7 @@ print(ism)
 ```
 
 Natija: <br>
-`Alisher`
+`Alisher` <br>
 `Muhammad`
 
 Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
