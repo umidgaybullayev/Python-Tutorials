@@ -110,12 +110,32 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     print(ism + ' ' + familiya)
     ```
     **Natija:** `Umid G'aybullayev`
-    
+
     ### STRING UZUNLIGINI ANIQLASH
+    Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
     ```python
     text = "Hello, World!"
     uzunlik = len(text)  # 13
+    print(uzunlik)
     ```
+    **Natija:** `13`
+
+    ### STRING E'LEMENTLARIGA MUROJAT QILISH
+    Matnlarimiz ichidan o'zimizga kerak bo'lgan harflarni ajratib olish uchun quyidagi usuldan foydalanamiz:
+    ```python
+    text = "Hello world!"
+    first_char = text[0] # H
+    last_char = text[-1]  # '!'
+    substring = text[0:5]  # 'Hello'
+    print(first_char)
+    print(last_char)
+    print(substring)
+    ```
+    **Natija:** <br>
+    `H` <br>
+    `!` <br>
+    `Hello`
+
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
