@@ -9,7 +9,7 @@
 >[!NOTE]
 > Python dasturlash tilida o'zgaruvchilar va ma'lumot turlari dasturlarni tuzishda juda muhim. Quyida o'zgaruvchilar va ularning turli ma'lumot turlari haqida ma'lumot beriladi.
 
-### O'zgaruvchilar
+## O'ZGARUVCHILAR
 
 **O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy. `Python`da o'zgaruvchi yaratish va unga qiymat berish juda oson:
 
@@ -49,7 +49,7 @@ Natija: <br>
 
 Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
 
-## O'ZGARUVCHILARNI NOMLASH
+### O'ZGARUVCHILARNI NOMLASH
 > [!CAUTION]
 > O'zgaruvchilarga nom berishda quyidagi qoidalarga amal qiling:
 > - O'zgaruvchi nomi harf yoki pastki chiziq (`_`) bilan boshlanishi kerak
@@ -69,3 +69,7 @@ print(keyword.kwlist)
 ```
 Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
+
+## MA'LUMOT TURLARI
+Python dasturlash tilida 8ta ma'lumot turi bor, ular quyidagilar:
+![alt text](images/data_types.png)
