@@ -144,6 +144,35 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     ```
     **Natija:** `HelloHelloHello`
 
+    ### F-STRING(Python 3.6+)
+    ```python
+    ism = "Umid"
+    yosh = 20
+    text = f"Mening ismim {ism}, yoshim {yosh}da" #Mening ismim Umid, yoshim 20da
+    print(text)
+    ```
+    **Natija:** `Mening ismim Umid, yoshim 20da`
+
+    ### STRING METODLARI
+    Python dasturlash tilida, stringlar ustida turli xil operatsiyalarni bajarish uchun bir qancha o'rnatilgan metodlar mavjud. Quyida eng ko'p qo'llaniladigan string metodlari va ularning misollari keltirilgan:
+
+    1. `.upper()` - Matndagi barcha harflarni katta harfga aylantiradi.
+    ```python
+    text = "hello"
+    print(text.upper()) #HELLO
+    ```
+    2. `.lower()` - Matndagi barcha harflarni kichik harfga aylantiradi.
+    ```python
+    text = "HELLO"
+    print(text.lower()) #hello
+    ```
+    3. `.capitalize()` - Matnning birinchi harfini katta harfga, qolganlarini kichik harfga aylantiradi.
+    ```python
+    text = "hello world"
+    print(text.capitalize()) # Hello world
+    ```
+
+
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
