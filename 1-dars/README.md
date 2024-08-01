@@ -95,7 +95,15 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     ```python
     ism = "Umid"
     print("Mening ismim " + ism)
+    **Natija:** `Mening ismim Umid`
     ```
+    ```python
+    ism = "Umid"
+    familiya = "G'aybullayev"
+    print(ism + familiya)
+    ```
+    Natija: `Umid G'aybullayev`
+
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
