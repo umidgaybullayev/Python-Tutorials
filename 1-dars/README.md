@@ -234,6 +234,51 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
+    Integer ma'lumot turi butun sonlarni ifodalaydi. Bu sonlar `manfiy`, `musbat` yoki `0` bo'lishi mumkin. Integerlar cheklanmagan uzunlikka ega, ya'ni Python juda katta sonlarni ham integer sifatida saqlay oladi.
+
+    ```python
+    x = 10
+    y = -5
+    z = 0
+    a = 12345678901234567890
+
+    print(type(x))  # <class 'int'>
+    print(type(y))  # <class 'int'>
+    print(type(z))  # <class 'int'>
+    print(type(a))  # <class 'int'>
+    ```
+    ### INTEGER OPERATSIYALARI
+    Integerlar ustida asosiy matematik operatsiyalarni bajarish mumkin:
+    ```python
+    a = 10
+    b = 3
+
+    print(a + b)  # Qo'shish: 13
+    print(a - b)  # Ayirish: 7
+    print(a * b)  # Ko'paytirish: 30
+    print(a / b)  # Bo'lish: 3.3333333333333335
+    print(a // b) # Butun qismini olish: 3
+    print(a % b)  # Qoldiqni olish: 1
+    print(a ** b) # Darajaga ko'tarish: 1000
+    ```
+
+    ### UZUN SONLARNI KIRITISH
+    Uzun sonlarni kiritishda, qulaylik uchun, raqamlarni pastki chiziq (`_`) yordamida guruhlash mumkin. Python - son tarkibidagi pastki chiziqlarni (`_`) inobatga olmasdan, uzun sonligicha qabul qiladi.
+
+    ```python
+    aholi_soni = 7_594_000_000 # o'qishga qulay bo'lishi uchun shunaqa ko'rinishda yozdik
+    print("Yer sharida", aholi_soni, "ga yaqin odam yashaydi")
+    ```
+
+    ### KONSTANTA
+
+    Aksar dasturlash tillarida `konstant` qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun `π` ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (`ogohlantirish sifatida`). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
+
+    ```python
+    PI = 3.14159
+    radius = 20.7
+    ```
+
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
 - Pythonda `sequence types` (ketma-ketlik) ma'lumot turlari turli xil elementlarni tartiblangan shaklda saqlash uchun ishlatiladi. Asosiy `sequence` turlari quyidagilar:
