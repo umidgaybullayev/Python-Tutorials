@@ -303,7 +303,7 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     print(y)        # 10.0
     ```
 
-    #### Floatdan Integerga o'zgartirish
+#### Floatdan Integerga o'zgartirish
 > [!NOTE]
 > Floatni Integerga o'zgartirishda kasr qismini olib tashlaydi.
 
@@ -313,8 +313,21 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 
     print(type(y))  # <class 'int'>
     print(y)        # 3
-
     ```
+
+#### Stringdan Floatga o'zgartirish
+
+> [!CAUTION]
+> Stringni integerga o'zgartirish uchun string faqat raqamlarni o'z ichiga olishi kerak.
+
+```python
+s = "123"
+x = int(s)  # 123
+
+print(type(x))  # <class 'int'>
+print(x)        # 123
+
+```
 
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
