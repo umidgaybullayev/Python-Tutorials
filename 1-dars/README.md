@@ -288,6 +288,13 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 > [!NOTE]
 > Pythonda o'nlik sonlar `floating point numbers` yoki qisqa qilib `floats` deyiladi. **"Floating point numbers"** atamasini o'zbek tiliga **"suzuvchi nuqtali sonlar"** deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun **"floating"** (`suzuvchi`) deyiladi.
 
+```python
+pi = 3.14159 # o'nlik son (float)
+radius = 10  # butun son (integer)
+diametr = 2*radius
+print("Aylana uzunligi ", pi*diametr, " ga teng.")
+```
+
 - Pythonda `sequence types` (ketma-ketlik) ma'lumot turlari turli xil elementlarni tartiblangan shaklda saqlash uchun ishlatiladi. Asosiy `sequence` turlari quyidagilar:
     - **List(list):** Tartiblangan va o'zgaruvchan ma'lumotlar to'plami. Masalan: `my_list = [1, 'Hello', True, '5.6']`
     - **Tuple(tuple):** Tartiblangan, lekin o'zgarmas ma'lumotlar to'plami. Masalan: `my_tuple = (1, 2, 3, 4, 5)`
