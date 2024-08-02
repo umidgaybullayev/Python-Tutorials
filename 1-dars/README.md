@@ -326,7 +326,26 @@ x = int(s)  # 123
 
 print(type(x))  # <class 'int'>
 print(x)        # 123
+```
 
+#### Integerdan Stringga o'zgartirish
+
+```python
+x = 123
+s = str(x)  # "123"
+
+print(type(s))  # <class 'str'>
+print(s)        # "123"
+```
+
+#### Floatdan Stringga o'zgartirish
+
+```python
+x = 3.14
+s = str(x)  # "3.14"
+
+print(type(s))  # <class 'str'>
+print(s)        # "3.14"
 ```
 
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
