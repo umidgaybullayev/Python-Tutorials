@@ -204,19 +204,19 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     text = "hello world"
     print(text.replace("world", "Python"))  # "hello Python"
     ```
-9. `.split()` - Matnni ma'lum bir ajratgich bo'yicha qismlarga ajratadi va ro'yxat qaytaradi.
+9. `.split()` - Matnni ma'lum bir ajratgich bo'yicha qismlarga ajratadi va `ro'yxat` qaytaradi.
 
     ```python
     text = "hello world"
     print(text.split()) # ['hello', 'world']
     ```
-10. `.join()` - Ro'yxatdagi elementlarni birlashtiradi va string qaytaradi.
+10. `.join()` - Ro'yxatdagi elementlarni birlashtiradi va `string` qaytaradi.
 
     ```python
     words = ['hello', 'world']
     print(" ".join(words))  # "hello world"
     ```
-11. `.find()` - Matn ichida ma'lum bir qatorni qidiradi va uning indeksini qaytaradi. Agar topilmasa, -1    qaytaradi.
+11. `.find()` - Matn ichida ma'lum bir qatorni qidiradi va uning indeksini qaytaradi. Agar topilmasa, `-1` qaytaradi.
     ```python
     text = "hello world"
     print(text.find("world"))  # 6
