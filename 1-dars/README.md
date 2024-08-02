@@ -348,6 +348,14 @@ print(type(s))  # <class 'str'>
 print(s)        # "3.14"
 ```
 
+### INPUT
+Foydalanuvchidan ma'lumot olish uchun input() funksiyasidan foydalanamiz:
+
+```python
+ism = input("Ismingizni kiriting: ")
+print(ism)
+```
+
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
 > [!NOTE]
@@ -372,3 +380,5 @@ print("Aylana uzunligi ", pi*diametr, " ga teng.")
     - **bytes:** O'zgarmas ikkilik ma'lumotlar to'plami.
     - **bytearray:** O'zgaruvchan ikkilik ma'lumotlar to'plami.
     - **memoryview:** Mavjud ikkilik ma'lumotlarni ko'rish va manipulyatsiya qilish imkonini beradi.
+
+## AMALIYOT
