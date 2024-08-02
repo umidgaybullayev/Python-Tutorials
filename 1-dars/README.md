@@ -212,8 +212,24 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     ```
 10. `.join()` - Ro'yxatdagi elementlarni birlashtiradi va string qaytaradi.
 
+    ```python
+    words = ['hello', 'world']
+    print(" ".join(words))  # "hello world"
     ```
-    
+11. `.find()` - Matn ichida ma'lum bir qatorni qidiradi va uning indeksini qaytaradi. Agar topilmasa, -1    qaytaradi.
+    ```python
+    text = "hello world"
+    print(text.find("world"))  # 6
+    ```
+12. `.startswith()` - Matn ma'lum bir qator bilan boshlanishini tekshiradi. `True` yoki `False` qaytaradi.
+    ```python
+    text = "hello world"
+    print(text.startswith("hello"))  # True
+    ```
+13. `.endswith()` - Matn ma'lum bir qator bilan tugashini tekshiradi. `True` yoki `False` qaytaradi.
+    ```python
+    text = "hello world"
+    print(text.endswith("world"))  # True 
     ```
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
