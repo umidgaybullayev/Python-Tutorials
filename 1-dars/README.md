@@ -356,6 +356,19 @@ ism = input("Ismingizni kiriting: ")
 print(ism)
 ```
 
+Yuqoridagi kodda foydalanuvchidan ism kiritishini so'radik va kiritilgan ismni terminalga chiqardik.
+
+Input funksiyasidan foydalanishni o'rgandik, endi shu funksiya yordamida foydalanuvchidan son olishni o'rganamiz:
+
+```python
+#1 foydalanuvchining tug'ilgan yilini so'raymiz
+t_yil = input("Tug'ilgan yilingizni kiriting: ")
+#2 foydalanuvchi yoshini xisoblaymiz
+yosh = 2020 - t_yil # 
+#3 foydalanuvchi yoshini konsolga chiqaramiz
+print("Siz " + yosh + " yoshda ekansiz")
+```
+
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
 > [!NOTE]
@@ -382,3 +395,4 @@ print("Aylana uzunligi ", pi*diametr, " ga teng.")
     - **memoryview:** Mavjud ikkilik ma'lumotlarni ko'rish va manipulyatsiya qilish imkonini beradi.
 
 ## AMALIYOT
+1. Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
