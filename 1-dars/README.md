@@ -283,6 +283,39 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     radius = 20.7
     ```
 
+    ### BIR NECHTA O'ZGARUVCHIGA QIYMAT BERISH
+    Birdaniga bir nechta o'zgaruvchiga qiymat berish uchun o'zgaruvchilar va ularga mos qiymatlar vergul (`,`) bilan ajratiladi:
+    ```python
+    x, y, z = 10, -7.25, -30
+    ```
+
+    ### O'ZGARUVCHI TURINI ALMASHTIRISH
+
+    Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish uchun turli xil funksiyalar mavjud. Ushbu jarayon tur o'zgartirish (`type casting`) deb ataladi. Quyida integer, float va string ma'lumot turlarini o'zaro o'zgartirish usullari haqida batafsil ma'lumot keltirilgan.
+
+    #### Integerda Floatga o'zgartirish
+
+    ```python
+    x = 10
+    y = float(x)  # 10.0
+
+    print(type(y))  # <class 'float'>
+    print(y)        # 10.0
+    ```
+
+    #### Floatdan Integerga o'zgartirish
+> [!NOTE]
+> Floatni Integerga o'zgartirishda kasr qismini olib tashlaydi.
+
+    ```python
+    x = 3.14
+    y = int(x)  # 3
+
+    print(type(y))  # <class 'int'>
+    print(y)        # 3
+
+    ```
+
     - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
 > [!NOTE]
