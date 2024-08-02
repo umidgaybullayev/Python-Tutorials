@@ -1,1 +1,3 @@
-# PYTHON LESSON 5
+# PYTHON DASTURLASH ASOSLARI
+
+## 5-dars Tsikllar.
