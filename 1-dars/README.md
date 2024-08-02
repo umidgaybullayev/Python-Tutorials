@@ -174,7 +174,47 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
     text = "hello world"
     print(text.capitalize()) # Hello world
     ```
+4. `.title()` - Matndagi har bir so'zning birinchi harfini katta harfga aylantiradi.
 
+    ```python
+    text = "hello world"
+    print(text.title()) # Hello World
+    ```
+5. `.strip()` - Matnning boshida va oxiridagi bo'sh joylarni olib tashlaydi.
+
+    ```python
+    text = "    hello world    "
+    print(text.strip()) # "hello world"
+    ```
+6. `.lstrip()` - Matnning faqat boshidagi bo'sh joylarni olib tashlaydi.
+
+    ```python
+    text = "    hello world    "
+    print(text.lstrip()) # "hello world    "
+    ```
+7. `.rstrip()` - Matnning faqat oxiridagi bo'sh joylarni olib tashlaydi.
+
+    ```python
+    text = "    hello world    "
+    print(text.rstrip()) # "    hello world"
+    ```
+8. `.replace()` - Matndagi ma'lum bir qatorni boshqa qator bilan almashtiradi.
+
+    ```python
+    text = "hello world"
+    print(text.replace("world", "Python"))  # "hello Python"
+    ```
+9. `.split()` - Matnni ma'lum bir ajratgich bo'yicha qismlarga ajratadi va ro'yxat qaytaradi.
+
+    ```python
+    text = "hello world"
+    print(text.split()) # ['hello', 'world']
+    ```
+10. `.join()` - Ro'yxatdagi elementlarni birlashtiradi va string qaytaradi.
+
+    ```
+    
+    ```
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
