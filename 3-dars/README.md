@@ -1,1 +1,3 @@
-# PYTHON LESSON 3
+# PYTHON DASTURLASH ASOSLARI
+
+## 3-dars Ro'yxatlar va qatorlar.
