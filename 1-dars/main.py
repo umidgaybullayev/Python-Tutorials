@@ -192,15 +192,18 @@
 # print(f"Siz {yosh} yil ekansiz.")
 # # print(type(t_yil))
 
-a= int(input("Birinchi soni kiriting: "))
-b= int(input("Ikkinchi soni kiriting: "))
-natija1 = a + b
-natija2 = a * b
-natija3 = a / b
-natija4 = a - b
+# a= int(input("Birinchi soni kiriting: "))
+# b= int(input("Ikkinchi soni kiriting: "))
+# natija1 = a + b
+# natija2 = a * b
+# natija3 = a / b
+# natija4 = a - b     
 
-print(natija1)
-print(natija2)
-print(int(natija3))
-print(natija4)
+# print(natija1)
+# print(natija2)
+# print(int(natija3))
+# print(natija4)
           
+
+text = input("ism familiya>>>")
+print(text[:4])
