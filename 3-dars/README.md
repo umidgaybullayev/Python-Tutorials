@@ -115,3 +115,11 @@ my_list = [1, 2, 3]
 multiplied_list = my_list * 3
 print(multiplied_list)
 ```
+
+### RO'YHATDA E'LEMENT BORLIGINI TEKSHIRISH
+
+```python
+my_list = [1, 2, 3, 4, 5]
+print(3 in my_list)  # True
+print(6 in my_list)  # False
+```
