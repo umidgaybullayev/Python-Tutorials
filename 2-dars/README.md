@@ -176,3 +176,9 @@ result = (x == z) or (y < x)  # result True ga teng bo'ladi, chunki birinchi sha
 # not operatori
 result = not (x == z)  # result False ga teng bo'ladi, chunki x va z teng
 ```
+
+## AMALIYOT
+1. Ikkita o'zgaruvchi yarating va ularning qiymatlarini qo'shib natijani ekranga chiqaruvchi dastur yozing.
+2. Foydalanuvchi tomonidan kiritilgan ikkita sonning ayirmasini hisoblab ekranga chiqaruvchi dastur yozing.
+3. Ikkita o'zgaruvchi yarating va ularni bo'lgandan keyin butun qismini ekranga chiqaruvchi dastur yozing.
+4. Foydalanuvchi tomonidan kiritilgan ikkita sonni bo'lgandan keyin qoldig'ini ekranga chiqaruvchi dastur yozing.
