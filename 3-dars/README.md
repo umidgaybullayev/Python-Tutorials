@@ -33,9 +33,40 @@ print(len(my_list))
 
 ### RO'YHATGA E'LEMENT QO'SHISH
 
-- **Oxiriga element qo'shish:** `append()`
+- **Oxiriga element qo'shish:** `.append()`
 
 ```python
 my_list.append(6)
 print(my_list)
 ```
+
+- **Belgilangan joyga element qo'shish:** `.insert()`
+
+```python
+my_list.insert(2, 99)  # 2-pozitsiyaga 99 ni qo'shish
+print(my_list)
+```
+
+### E'LEMENTLARNI O'CHIRISH
+
+- **Belgilangan elementni o'chirish:** `.remove()`
+
+```python
+my_list.remove(99)
+print(my_list)
+```
+
+- **Indeks bo'yicha elementni o'chirish:** `.pop(index)`
+
+```python
+my_list.pop(0)  # Birinchi elementni o'chirish
+print(my_list)
+```
+
+- **Oxirgi elementni o'chirish:** `.pop()`
+
+```python
+my_list.pop()
+print(my_list)
+```
+
