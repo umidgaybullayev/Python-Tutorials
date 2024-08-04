@@ -7,6 +7,15 @@
     - Solishtirish operatorlari
     - Mantiqiy operatorlar
 
-## Arifmetik operatorlar
+## ARIFMETIK OPERATORLAR
 
 Python dasturlash tilida arifmetik operatorlar matematik amallarni bajarish uchun ishlatiladi.
+
+1. Qo'shish (`+`): Ikkita sonni qo'shish uchun ishlatiladi.
+
+```python
+a = 5
+b = 3
+c = a + b  # c 8 ga teng bo'ladi
+print(c)
+```
