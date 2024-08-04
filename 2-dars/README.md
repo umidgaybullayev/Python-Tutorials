@@ -129,3 +129,50 @@ b = 3
 result = (a <= b)  # result False ga teng bo'ladi
 print(result)
 ```
+
+## MANTIQIY OPERATORLAR
+
+Python dasturlash tilida mantiqiy operatorlar mantiqiy qiymatlarni (`True` yoki `False`) birlashtirish yoki taqqoslash uchun ishlatiladi.
+
+1. **va** (`and`): Ikkala shart ham `True` bo'lsa, natija `True` bo'ladi, aks holda `False`.
+
+```python
+a = True
+b = False
+result = a and b  # result False ga teng bo'ladi
+print(result)
+```
+
+2. **yoki** (`or`): Hech bo'lmaganda bitta shart `True` bo'lsa, natija `True` bo'ladi, aks holda `False`.
+
+```python
+a = True
+b = False
+result = a or b  # result True ga teng bo'ladi
+print(result)
+```
+
+3. **emas** (`not`): Shartning mantiqiy qiymatini teskariga o'zgartiradi (`True` bo'lsa `False`ga, `False` bo'lsa `True`ga).
+
+```python
+a = True
+result = not a  # result False ga teng bo'ladi
+print(result)
+```
+
+Quyidagi misolda mantiqiy operatorlar qanday ishlashini ko'rishimiz mumkin:
+
+```python
+x = 5
+y = 10
+z = 5
+
+# and operatori
+result = (x == z) and (y > x)  # result True ga teng bo'ladi, chunki ikkala shart ham True
+
+# or operatori
+result = (x == z) or (y < x)  # result True ga teng bo'ladi, chunki birinchi shart True
+
+# not operatori
+result = not (x == z)  # result False ga teng bo'ladi, chunki x va z teng
+```
