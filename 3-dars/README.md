@@ -70,3 +70,48 @@ my_list.pop()
 print(my_list)
 ```
 
+### RO'YHATNI TOZALASH
+
+```python
+my_list.clear()
+print(my_list)
+```
+
+### RO'YHATNI SARALASH
+
+```python
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+my_list.sort()
+print(my_list)
+```
+
+### RO'YHATNI TESKARIGA O'ZGARTIRISH
+
+```python
+my_list.reverse()
+print(my_list)
+```
+
+### RO'YHATNI BIRLASHTIRISH
+
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+merged_list = list1 + list2
+print(merged_list)
+```
+
+### RO'YHAT ICHIDAGI RO'YHAT
+
+```python
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(nested_list[1][2])  # 5 ga murojaat
+```
+
+### RO'YHATNI KO'PAYTIRISH
+
+```python
+my_list = [1, 2, 3]
+multiplied_list = my_list * 3
+print(multiplied_list)
+```
