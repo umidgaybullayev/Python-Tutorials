@@ -19,3 +19,55 @@ b = 3
 c = a + b  # c 8 ga teng bo'ladi
 print(c)
 ```
+
+2. Ayirish (`-`): Ikkita sonni ayirish uchun ishlatiladi.
+```python
+a = 5
+b = 3
+c = a - b  # c 2 ga teng bo'ladi
+print(c)
+```
+
+3. Ko'paytirish (`*`): Ikkita sonni ko'paytirish uchun ishlatiladi.
+```python
+a = 5
+b = 3
+c = a * b  # c 15 ga teng bo'ladi
+print(c)
+```
+
+4. Bo'lish (`/`): Ikkita sonni bo'lish uchun ishlatiladi.
+
+```python
+a = 6
+b = 3
+c = a / b  # c 2.0 ga teng bo'ladi
+print(c)
+```
+
+5. Butun bo'lish (`//`): Ikkita sonni butun qismiga bo'lish uchun ishlatiladi.
+
+```python
+a = 7
+b = 3
+c = a // b  # c 2 ga teng bo'ladi
+print(c)
+```
+
+6. Qoldiq (`%`): Ikkita sonni bo'lgandan keyin qoldiqni topish uchun ishlatiladi.
+
+```python
+a = 7
+b = 3
+c = a % b  # c 1 ga teng bo'ladi
+print(c)
+```
+
+7. Daraja (`**`): Bir sonni ikkinchi son darajasiga ko'tarish uchun ishlatiladi.
+
+```python
+a = 2
+b = 3
+c = a ** b  # c 8 ga teng bo'ladi
+print(c)
+```
