@@ -30,7 +30,7 @@ print(my_list[-1])  # Oxirgi element
 
 ### RO'YHAT UZUNLIGINI TOPISH
 
-Ro'yhat uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
+Ro'yhat uzunligini topish ya'ni ichida nechta element borligini topish uchun `len()` funksiyasidan foydalanamiz.
 
 ```python
 print(len(my_list))
