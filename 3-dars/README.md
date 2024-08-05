@@ -21,7 +21,7 @@ print(my_list)
 ### RO'YHATLARGA MUROJAT QILISH
 
 > [!CAUTION]
-> Dasturlash olamida indeks `0` dan boshlanadi! Ya'ni Listning birinchi elementing tartib raqami (`indeksi`) `0` ga, ikkinchi elementning indeksi `1` ga teng va hokazo.
+> Dasturlash olamida indeks `0` dan boshlanadi! Ya'ni Listning birinchi elementing tartib raqami (indeksi) `0` ga, ikkinchi elementning indeksi `1` ga teng va hokazo.
 
 ```python
 print(my_list[0])  # Birinchi element
@@ -29,6 +29,8 @@ print(my_list[-1])  # Oxirgi element
 ```
 
 ### RO'YHAT UZUNLIGINI TOPISH
+
+Ro'yhat uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
 
 ```python
 print(len(my_list))
@@ -75,12 +77,16 @@ print(my_list)
 
 ### RO'YHATNI TOZALASH
 
+Ro'yhatni tozalash uchun `.clear()` metodidan foydalanamiz.
+
 ```python
 my_list.clear()
 print(my_list)
 ```
 
 ### RO'YHATNI SARALASH
+
+Ro'yhatni saralash uchun `.sort()` metodidan foydalanamiz. `.sort()` metodi ro'yhatimiz raqamlardan iborat bo'lsa o'sib borish tartibida saralaydi, agar ro'yhatimiz stringdan(harflardan) tashkil topgan bo'lsa alifbo tartibida saralaydi.
 
 ```python
 my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
@@ -89,6 +95,9 @@ print(my_list)
 ```
 
 ### RO'YHATNI TESKARIGA O'ZGARTIRISH
+
+Ba'zida ro'yxatni aylantirish (boshini oxiriga, oxirini boshiga) talab qilinishi mumkin. Buning uchun 
+`.reverse()` metodidan foydalanamiz.
 
 ```python
 my_list.reverse()
