@@ -20,6 +20,9 @@ print(my_list)
 
 ### RO'YHATLARGA MUROJAT QILISH
 
+> [!CAUTION]
+> Dasturlash olamida indeks `0` dan boshlanadi! Ya'ni Listning birinchi elementing tartib raqami (`indeksi`) `0` ga, ikkinchi elementning indeksi `1` ga teng va hokazo.
+
 ```python
 print(my_list[0])  # Birinchi element
 print(my_list[-1])  # Oxirgi element
