@@ -145,10 +145,27 @@ print(combined_list)
 
 ### RO'YHAT ICHIDAGI RO'YHAT
 
+Pythonda ro'yxatlar ichidagi ro'yxatlar, ya'ni `ko'p o'lchovli ro'yxatlar` yaratish va ulardan foydalanish juda oddiy. Quyida bunday ro'yxatlar bilan qanday ishlashni ko'rsatib beraman.
+
 ```python
-nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(nested_list[1][2])  # 5 ga murojaat
+multi_dimensional_list = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 ```
+
+#### Elementlarga murojaat qilish
+
+Ro'yxat ichidagi ro'yxatdagi elementlarga indekslar yordamida murojaat qilish mumkin.
+
+```python
+print(multi_dimensional_list[0][0])  # 1
+print(multi_dimensional_list[1][2])  # 6
+print(multi_dimensional_list[2][1])  # 8
+```
+
+Yuqoridagi kodda index orqali ro'yhat ichidagi ro'yhatlardan bittasini tanlab oldim va tanlangan ro'yhatning qaysi elementiga murojat qilishni belgilab oldim.
 
 ### RO'YHATNI KO'PAYTIRISH
 
