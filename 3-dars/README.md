@@ -106,12 +106,42 @@ print(my_list)
 
 ### RO'YHATNI BIRLASHTIRISH
 
+Pythonda ro'yhatlarni birlashtirishni bir nechta usullari bor. Quyida ularga misollar ko'ramiz:
+
+Birinchi usuli `+` operatori bilan birlashtirish:
+
 ```python
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 merged_list = list1 + list2
 print(merged_list)
 ```
+
+**Natija:** `[1, 2, 3, 4, 5, 6]`
+
+`.extend()` metodi bilan birlashtirish:
+
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1.extend(list2)
+print(list1)
+```
+
+**Natija:** `[1, 2, 3, 4, 5, 6]`
+
+`itertools.chain()` yordamida:
+
+```python
+import itertools
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list(itertools.chain(list1, list2))
+print(combined_list)
+```
+
+**Natija:** `[1, 2, 3, 4, 5, 6]`
 
 ### RO'YHAT ICHIDAGI RO'YHAT
 
