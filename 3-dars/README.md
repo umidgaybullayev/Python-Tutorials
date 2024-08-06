@@ -162,8 +162,28 @@ Ro'yxat ichidagi ro'yxatdagi elementlarga indekslar yordamida murojaat qilish mu
 ```python
 print(multi_dimensional_list[0][2])  # 3
 ```
-
 Yuqoridagi kodda `0` indexda turgan ro'yhatni tanlab oldim va tanlangan ro'yhatning ichidagi `2` indexda turgan elementga murojat qildim.
+
+Ro'yxatlar ichidagi ro'yxatlarga yangi ro'yxat qo'shish mumkin:
+
+```python
+multi_dimensional_list.append([10, 11, 12])
+print(multi_dimensional_list)
+```
+
+Ro'yhat ichidagi ro'yhatlarni o'zgartirish mumkin:
+
+```python
+multi_dimensional_list[0] = [13, 14, 15]
+print(multi_dimensional_list)
+```
+
+Ma'lum bir ichki ro'yxat elementini o'zgartirish mumkin:
+
+```python
+multi_dimensional_list[1][1] = 99
+print(multi_dimensional_list)
+```
 
 ### RO'YHATNI KO'PAYTIRISH
 
@@ -175,8 +195,18 @@ print(multiplied_list)
 
 ### RO'YHATDA E'LEMENT BORLIGINI TEKSHIRISH
 
+Python'da ro'yxat ichida element borligini tekshirish uchun `in` operatoridan foydalanish mumkin. Bu operator juda sodda va qulay bo'lib, ro'yxat ichida ma'lum bir elementning mavjudligini aniqlash imkonini beradi.
+
 ```python
 my_list = [1, 2, 3, 4, 5]
 print(3 in my_list)  # True
 print(6 in my_list)  # False
+```
+
+## QATORLAR(TUPLES) VA ULAR BILAN ISHLASH
+
+Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir marta yaratgandan keyin o'zgartirib bo'lmaydi. Ular ro'yxatlar (`lists`) ga o'xshash, lekin qatorlar bir marta yaratib olingandan keyin o'zgartirilmaydi, ya'ni ularga yangi element qo'shib bo'lmaydi, mavjud elementlarni o'chirib bo'lmaydi yoki o'zgartirib bo'lmaydi. Qatorlar ko'pincha o'zgarmas ma'lumotlar to'plamini saqlash uchun ishlatiladi.
+
+```python
+rgb = ('red', 'green', 'blue')
 ```
