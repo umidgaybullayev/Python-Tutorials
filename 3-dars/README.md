@@ -248,6 +248,34 @@ my_list = [1, 2, 3, 4, 5]
 print(3 in my_list)  # True
 print(6 in my_list)  # False
 ```
+### QO'SHIMCHA FUNKSIYALAR
+
+Python dasturlash tilida ro'yxatlar bilan ishlashda quyidagi funksiyalar yordamida ro'yxatdagi elementlarni `qo'shish`, `maksimal` va `minimal` qiymatlarni topish mumkin:
+
+`sum()` **funksiyasi:** Ro'yxatdagi barcha sonlarning yig'indisini qaytaradi.
+
+```python
+my_list = [10, 20, 30, 40, 50]
+# Ro'yxatdagi elementlar yig'indisini hisoblash
+sum_of_list = sum(my_list)
+print(f"Ro'yxatdagi elementlar yig'indisi: {sum_of_list}")
+```
+
+`max()` **funksiyasi:** Ro'yxatdagi eng katta qiymatni qaytaradi.
+
+```python
+# Ro'yxatdagi eng katta qiymatni topish
+max_value = max(my_list)
+print(f"Ro'yxatdagi eng katta qiymat: {max_value}")
+```
+
+`min()` **funksiyasi:** Ro'yxatdagi eng kichik qiymatni qaytaradi.
+
+```python
+# Ro'yxatdagi eng kichik qiymatni topish
+min_value = min(my_list)
+print(f"Ro'yxatdagi eng kichik qiymat: {min_value}")
+```
 
 ## QATORLAR(TUPLES) VA ULAR BILAN ISHLASH
 
