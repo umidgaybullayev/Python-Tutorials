@@ -210,3 +210,11 @@ Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir m
 ```python
 rgb = ('red', 'green', 'blue')
 ```
+
+
+## AMALIYOT
+- Ro'yxatdagi eng kichik va eng katta qiymatlarni toping.
+- Ro'yxatdagi elementlarning o'rtacha qiymatini hisoblang.
+- Ro'yxatni teskari tartibda qaytaring.
+- Ikki ro'yxatni birlashtirib, natijani saralang.
+- 
