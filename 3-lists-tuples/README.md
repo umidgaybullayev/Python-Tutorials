@@ -281,27 +281,47 @@ print(f"Ro'yxatdagi eng kichik qiymat: {min_value}")
 
 Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir marta yaratgandan keyin o'zgartirib bo'lmaydi. Ular ro'yxatlar (`lists`) ga o'xshash, lekin qatorlar bir marta yaratib olingandan keyin o'zgartirilmaydi, ya'ni ularga yangi element qo'shib bo'lmaydi, mavjud elementlarni o'chirib bo'lmaydi yoki o'zgartirib bo'lmaydi. Qatorlar ko'pincha o'zgarmas ma'lumotlar to'plamini saqlash uchun ishlatiladi.
 
-```python
-rgb = ('red', 'green', 'blue')
-```
-Qatorlar(`tuples`) ichidagi e'lementlarga index orqari murojat qilish mumkin:
+### TO'PLAM YARATISH
 
 ```python
-rgb = ('red', 'green', 'blue')
+# Oddiy tuplam yaratish
+my_tuple = (1, 2, 3)
+print(my_tuple)  # (1, 2, 3)
 
-print(rgb[0])
-print(rgb[1])
-print(rgb[2])
+# list dan tuplam yaratish
+another_tuple = tuple([4, 5, 6])
+print(another_tuple)  # (4, 5, 6)
+
+# bo'sh tuplam yaratish
+empty_tuple = ()
+print(empty_tuple)  # ()
+
+# bitta elementli tuplam yaratish uchun vergul qo'yish kerak
+single_element_tuple = (1,)
+print(single_element_tuple)  # (1,)
 ```
 
-Qatorlar(`tuples`) ichidagi elementlarni o'zgartirib bo'lmaydi.
+### TUPLE E'LEMENTLARIGA MUROJAT QILISH
+
+`To'plam` elementlariga ham `list`larga o'xshab indeks orqali murojaat qilish mumkin. Indekslar `0` dan boshlanadi:
 
 ```python
-rgb = ('red', 'green', 'blue')
-rgb[0] = 'yellow'
-print(rgb)
+my_tuple = (10, 20, 30, 40, 50)
+print(my_tuple[0])  # 10
+print(my_tuple[2])  # 30
+print(my_tuple[-1]) # 50 (oxirgi element)
 ```
-**Natija:** `TypeError: 'tuple' object does not support item assignment`
+
+### TUPLE UZUNLIGINI ANIQLASH
+
+Tuplamdagi elementlar sonini aniqlash uchun `len()` funksiyasidan foydalaniladi:
+
+```python
+my_tuple = (1, 2, 3, 4, 5)
+print(len(my_tuple))  # 5
+```
+
+
 
 ## AMALIYOT
 - Ro'yxatdagi eng kichik va eng katta qiymatlarni toping.
@@ -310,7 +330,7 @@ print(rgb)
 - Ikki ro'yxatni birlashtirib, natijani saralang.
 - O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni terminalga chiqaring.
 - `.sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
-- `.sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
+- `.sort()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
 
 - Bir nechta elementlardan iborat tuple yarating va uni terminalda chiqaring.
 - Tuple ichidagi ma'lum elementlarga murojaat qiling va ularni terminalga chiqaring.
