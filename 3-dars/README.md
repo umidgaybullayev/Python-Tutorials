@@ -160,12 +160,10 @@ multi_dimensional_list = [
 Ro'yxat ichidagi ro'yxatdagi elementlarga indekslar yordamida murojaat qilish mumkin.
 
 ```python
-print(multi_dimensional_list[0][0])  # 1
-print(multi_dimensional_list[1][2])  # 6
-print(multi_dimensional_list[2][1])  # 8
+print(multi_dimensional_list[0][2])  # 3
 ```
 
-Yuqoridagi kodda index orqali ro'yhat ichidagi ro'yhatlardan bittasini tanlab oldim va tanlangan ro'yhatning qaysi elementiga murojat qilishni belgilab oldim.
+Yuqoridagi kodda `0` indexda turgan ro'yhatni tanlab oldim va tanlangan ro'yhatning ichidagi `2` indexda turgan elementga murojat qildim.
 
 ### RO'YHATNI KO'PAYTIRISH
 
