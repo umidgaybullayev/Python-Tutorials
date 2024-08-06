@@ -88,11 +88,57 @@ print(my_list)
 
 Ro'yhatni saralash uchun `.sort()` metodidan foydalanamiz. `.sort()` metodi ro'yhatimiz raqamlardan iborat bo'lsa o'sib borish tartibida saralaydi, agar ro'yhatimiz stringdan(harflardan) tashkil topgan bo'lsa alifbo tartibida saralaydi.
 
+Pythonda ro'yxatlar bilan ishlashda `sort()` va `sorted() `metodlari mavjud bo'lib, ularning farqlari quyidagicha:
+
+#### `.sort()` metodi
+- `sort()` metodi ro'yxatni o'zida o'zgartiradi (`in-place`). Bu metod chaqirilganda asl ro'yxat o'zgartiriladi va yangi ro'yxat yaratilmaydi.
+
+- sort() metodi faqat ro'yxatlar (lists) uchun mavjud.
+
 ```python
 my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 my_list.sort()
 print(my_list)
 ```
+
+#### `.sorted()` funksiyasi
+
+- `sorted()` funksiyasi asl ro'yxatni o'zgartirmaydi, balki saralangan elementlardan yangi ro'yxat yaratadi va qaytaradi.
+
+- `sorted()` funksiyasi ro'yxat (`lists`) dan tashqari boshqa iteralanadigan (`iterable`) obyektlar bilan ham ishlashi mumkin, masalan, qatorlar (`tuples`), lug'atlar (`dictionaries`), va hokazo.
+
+- `sorted()` funksiyasi saralangan yangi ro'yxatni qaytaradi.
+
+```python
+my_list = [3, 1, 4, 1, 5, 9]
+sorted_list = sorted(my_list)
+print(sorted_list)  # [1, 1, 3, 4, 5, 9]
+print(my_list)      # [3, 1, 4, 1, 5, 9]
+```
+
+#### Qo'shimcha parametrlar
+
+- `key` parametri: Elementlarni solishtirish uchun qo'shimcha funksiyani belgilash imkonini beradi.
+
+- `reverse` parametri: Saralash tartibini belgilaydi (True bo'lsa, teskari tartibda saralanadi).
+
+`.sort()` metodi bilan
+
+```python
+my_list = [3, 1, 4, 1, 5, 9]
+my_list.sort(reverse=True)
+print(my_list)  # [9, 5, 4, 3, 1, 1]
+```
+
+`.sorted()` funksiyasi bilan
+
+```python
+my_list = [3, 1, 4, 1, 5, 9]
+sorted_list = sorted(my_list, reverse=True)
+print(sorted_list)  # [9, 5, 4, 3, 1, 1]
+print(my_list)      # [3, 1, 4, 1, 5, 9]
+```
+
 
 ### RO'YHATNI TESKARIGA O'ZGARTIRISH
 
@@ -210,11 +256,34 @@ Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir m
 ```python
 rgb = ('red', 'green', 'blue')
 ```
+Qatorlar(`tuples`) ichidagi e'lementlarga index orqari murojat qilish mumkin:
 
+```python
+rgb = ('red', 'green', 'blue')
+
+print(rgb[0])
+print(rgb[1])
+print(rgb[2])
+```
+
+Qatorlar(`tuples`) ichidagi elementlarni o'zgartirib bo'lmaydi.
+
+```python
+rgb = ('red', 'green', 'blue')
+rgb[0] = 'yellow'
+print(rgb)
+```
+**Natija:** `TypeError: 'tuple' object does not support item assignment`
 
 ## AMALIYOT
 - Ro'yxatdagi eng kichik va eng katta qiymatlarni toping.
 - Ro'yxatdagi elementlarning o'rtacha qiymatini hisoblang.
 - Ro'yxatni teskari tartibda qaytaring.
 - Ikki ro'yxatni birlashtirib, natijani saralang.
-- 
+- O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni terminalga chiqaring.
+- `.sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
+- `.sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
+
+- Bir nechta elementlardan iborat tuple yarating va uni terminalda chiqaring.
+- Tuple ichidagi ma'lum elementlarga murojaat qiling va ularni terminalga chiqaring.
+- Tuple uzunligini aniqlang va terminalga chiqaring.
