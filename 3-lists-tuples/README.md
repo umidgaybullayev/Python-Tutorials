@@ -321,7 +321,19 @@ my_tuple = (1, 2, 3, 4, 5)
 print(len(my_tuple))  # 5
 ```
 
+> [!NOTE]
+> Agar Tuple ga o'zgartirish talab qilinsa, yagona yo'li o'zgarmas ro'yxatni `list()` funktsiyasi yordamida `List` (oddiy ro'yxat) ko'rinishiga keltirib olish, o'zgarishlarni bajarsih va qaytarib `tuple()` funktsiyasi yordamida o'zgarmas ro'yxatga o'tkazish mumkin:
 
+```python
+toys = ('bus','car','bear','dino','snake','lizard') # o'zgarmas ro'yxat
+toys = list(toys) # o'zgarmas ro'yxatni oddiy ro'yxatga (List) aylantiramiz
+# Ro'yxatga o'zgartirishlar kiritamiz
+toys.append('dragon')
+toys.remove('bus')
+toys[1] = 'mcqueen'
+toys = tuple(toys) # Ro'yxatni qaytadan o'zgarmas ro'yxatga (Tuple) aylantiramiz
+print(toys)
+```
 
 ## AMALIYOT
 - Ro'yxatdagi eng kichik va eng katta qiymatlarni toping.
