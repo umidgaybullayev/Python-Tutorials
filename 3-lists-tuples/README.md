@@ -277,6 +277,40 @@ min_value = min(my_list)
 print(f"Ro'yxatdagi eng kichik qiymat: {min_value}")
 ```
 
+### `.range()` FUNKSIYASI
+
+Bu funktsiya yordamida biz ma'lum oraliqdagi sonlar ketma-ketligini yaratishimiz mumkin. 
+`list()` funktsiyasi yordamida esa bu oraliqni ro'yxat shaklida saqlab olamiz:
+
+```python
+sonlar = list(range(0,10)) # 
+print(sonlar)
+```
+**Natija:** `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+
+Yuqoridagi misolda `range(0,10)` funktsiyasi 0 dan 9 gacha sonlar ketma-ketligini shakllantirdi, `list(range(0,9))` esa bu ketma-ketlikni ro'yxatga aylantirdi.
+
+> [!CAUTION]
+> Diqqat! E'tibor qiling 
+`range()` funktsiyasi ikkinchi indeksdan bitta avval to'xtaydi.
+
+`range()` yordamida qadamni ham berishimiz mumkin:
+
+```python
+juft_sonlar = list(range(0,20,2)) # 0 dan 20 gacha 2 qadam bilan
+toq_sonlar = list(range(1,20,2))  # 1 dan 20 gacha 2 qadam bilan
+print("Juft sonlar: ", juft_sonlar)
+print("Toq sonlar: ", toq_sonlar)
+```
+**Natija:**
+**Juft sonlar:** `[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]`
+**Toq sonlar:** `[1, 3, 5, 7, 9, 11, 13, 15, 17, 19] `
+
+> [!NOTE]
+> Agar sonlar ketma-ketligi `0` dan boshlansa, `range()` funktsiyasida yakuniy indeksni ko'rsatish kifoya. Misol uchun `range(0,10)` emas `range(10)` deb yozsak ham bo'laveradi.
+
+
+
 ## QATORLAR(TUPLES) VA ULAR BILAN ISHLASH
 
 Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir marta yaratgandan keyin o'zgartirib bo'lmaydi. Ular ro'yxatlar (`lists`) ga o'xshash, lekin qatorlar bir marta yaratib olingandan keyin o'zgartirilmaydi, ya'ni ularga yangi element qo'shib bo'lmaydi, mavjud elementlarni o'chirib bo'lmaydi yoki o'zgartirib bo'lmaydi. Qatorlar ko'pincha o'zgarmas ma'lumotlar to'plamini saqlash uchun ishlatiladi.
@@ -341,9 +375,10 @@ print(toys)
 - Ro'yxatni teskari tartibda qaytaring.
 - Ikki ro'yxatni birlashtirib, natijani saralang.
 - O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni terminalga chiqaring.
-- `.sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
-- `.sort()` yordamida ro'yxatni teskari tartibda konsolga chiqaring
-
+- `.sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring.
+- `sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring.
+- Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring.
 - Bir nechta elementlardan iborat tuple yarating va uni terminalda chiqaring.
 - Tuple ichidagi ma'lum elementlarga murojaat qiling va ularni terminalga chiqaring.
 - Tuple uzunligini aniqlang va terminalga chiqaring.
+- sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
