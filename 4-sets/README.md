@@ -140,3 +140,9 @@ print(union_set)  # Natija: {1, 2, 3, 4, 5}
 
 > [!NOTE]
 > Birlashtirilgan to'plamda har bir element faqat bir marta bo‘ladi, ya'ni takroriy elementlar olib tashlanadi.
+
+## AMALIYOT
+- `my_list = [1, 2, 2, 3, 4, 4, 5]` Berilgan listdagi takroriy elementlarni olib tashlab, yangi to'plam yaratish.
+- `set1 = {1, 2, 3, 4}` <br>
+`set2 = {3, 4, 5, 6}` <br>
+Ikki to'plamdan umumiy elementlarni toping.
