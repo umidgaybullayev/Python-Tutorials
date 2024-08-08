@@ -27,3 +27,17 @@ for fruit in fruits:
 > [!NOTE]
 > **"For"** so'zi ingliz tilidan **"uchun"** deb tarjima qilinadi.
 
+For loop orqali string ichidagi elementlarni ham alohida qatordan chiqarishimiz mumkin:
+
+```python
+for x in "banana":
+  print(x)
+```
+**Natija:**
+
+`b` <br>
+`a` <br>
+`n` <br>
+`a` <br>
+`n` <br>
+`a` 
