@@ -78,7 +78,7 @@ set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
 print(set1.intersection(set2))  # {3, 4}
 ```
-1-qatorda `set1` nomli to'plam yaratdik.
-2-qatorda `set2` nomli to'plam yaratdik.
+1-qatorda `set1` nomli to'plam yaratdik. <br>
+2-qatorda `set2` nomli to'plam yaratdik. <br>
 3-qatorda `set1` nomli to'plam uchun `.intersection()` metodiga `set2` nomli to'plamni berdik. Shunda ikkala to'plam ichida bir xil bo'lgan elementlarni chiqaradi.
 
