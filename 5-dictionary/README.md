@@ -44,27 +44,48 @@ my_dict = {
 - Lug'atga element qo'shish uchun o'zgaruvchi nomidan kn `[]` qavs ochib ichiga kalit(key) ni beramiz, undan keyin qo'shmoqchi bo'lgan qiymat(value)imizni beramiz.
 ```python
 my_dict['email'] = 'alice@example.com'
+print(my_dict)
+# {'name': 'Alice', 'age': 25, 'city': 'New York', 'email': 'alice@example.com'}
 ```
 
 - Lug'atni yangilash:
 ```python
-my_dict['age'] = 31
+my_dict['age'] = 26
+print(my_dict)
+# {'name': 'Alice', 'age': 26, 'city': 'New York', 'email': 'alice@example.com'}
 ```
 - Lug'at ichidagi e'lementlarni o'chirish uchun `del` funksiyasidan foydalanamiz:
 ```python
-del my_dict['city']
+del my_dict['email']
+print(my_dict)
+# {'name': 'Alice', 'age': 26, 'city': 'New York'}
 ```
 - Lug'atdagi e'lementlarni o'chirish uchun `.pop()` metodidan ham foydalansak bo'ladi:
 ```python
-my_dict.pop('email')
+age = my_dict.pop('age')
+print(age)  # 26
+print(my_dict)  # {'name': 'Alice', 'city': 'New York'}
 ```
 
 ### E'LEMENTLARNI KO'RISH
 - Kalitlarni olish:
 ```python
 keys = my_dict.keys()
+print(keys)  # dict_keys(['name', 'city'])
 ```
 - Qiymatlarni olish:
 ```python
 values = my_dict.values()
+print(values)  # dict_values(['Alice', 'New York'])
 ```
+- Kalit-qiymat juftliklarini olish:
+```python
+items = my_dict.items()
+print(items)  # dict_items([('name', 'Alice'), ('city', 'New York')])
+```
+- Lug'atni tozalash uchun `.clear()` metodidan foydalanamiz:
+```python
+my_dict.clear()
+print(my_dict)  # {}
+```
+- Lug'atni nusxalash uchun `.copy()` metodida :
