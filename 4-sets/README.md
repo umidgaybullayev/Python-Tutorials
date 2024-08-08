@@ -59,7 +59,7 @@ print(my_set)  # {1, 2, 4, 5}
 
 To'plamlarda `.intersection()` metodi ikki yoki undan ortiq to'plamlar(sets) o'rtasida umumiy bo'lgan elementlarni aniqlash uchun ishlatiladi. Bu amalda natija sifatida barcha berilgan setlarda mavjud bo'lgan e'lementlar qaytariladi.
 
-Python dasturlash tilida **to'plamlar**(`sets`) kesishishini amalga oshirish uchun bir nechta usullar mavjud:
+Python dasturlash tilida **to'plamlar**(`sets`) ni kesishishini amalga oshirish uchun bir nechta usullar mavjud:
 1. **`&` operatori:** Kesishish amali uchun maxsus operator.
 2. **`.intersection()` metodi:** Bir yoki bir nechta setlar bilan kesishish amalga oshiriladi.
 
@@ -88,4 +88,20 @@ empty_set = set()
 
 intersection_set = set1 & empty_set
 print(intersection_set)  # Natija: set()
+```
+
+- To'plamlarda `.difference()` metodi bir setdagi elementlarni boshqa setdagi elementlardan chiqarib tashlash uchun ishlatiladi. Natijada birinchi setda bor, lekin ikkinchi (yoki ko'proq) setda yo'q bo'lgan elementlar qaytariladi.
+
+Python dasturlash tilida setlar farqini topish oshirish uchun bir nechta usullar mavjud:
+
+- **`-` operatori:** .difference() metodi uchun maxsus operator.
+- **`difference()` metodi:** Bir yoki bir nechta to'plamlar(set) farqlarini tekshiradi.
+
+- `-` operatori
+```python
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+difference_set = set1 - set2
+print(difference_set)  # Natija: {1, 2}
 ```
