@@ -1,6 +1,6 @@
 # PYTHON DASTURLASH ASOSLARI
 
-## 4-dars sets
+## 4-dars To'plamlar(sets)
 
 Python dasturlash tilida toplamlar(`sets`) — bu to‘plamga qo‘shilgan elementlar faqat bir martadan saqlanadigan va tartibi ahamiyatga ega bo‘lmagan ma'lumotlar tuzilmasi. Bu ma'lumotlar tuzilmasi quyidagi asosiy xususiyatlarga ega:
 - **Noyob elementlar:** Setdagi barcha elementlar yagona va takrorlanmaydi.
@@ -43,8 +43,8 @@ print(my_set)  # {1, 2, 4, 5}
 ```
 
 Natija: <br>
-`Traceback (most recent call last):
-  File "C:\Users\VICTUS\Desktop\Python-Tutorials\4-sets\main.py", line 3, in <module>
+`Traceback (most recent call last): <br>
+  File "C:\Users\VICTUS\Desktop\Python-Tutorials\4-sets\main.py", line 3, in <module> <br>
     my_set.remove(7)
 KeyError: 7` 
 
