@@ -83,9 +83,29 @@ print(values)  # dict_values(['Alice', 'New York'])
 items = my_dict.items()
 print(items)  # dict_items([('name', 'Alice'), ('city', 'New York')])
 ```
+
+### LUG'ATLARNI BOSHQARISH
+
 - Lug'atni tozalash uchun `.clear()` metodidan foydalanamiz:
 ```python
 my_dict.clear()
 print(my_dict)  # {}
 ```
-- Lug'atni nusxalash uchun `.copy()` metodida :
+- Lug'atni nusxalash uchun `.copy()` metodidan foydalanamiz:
+```python
+new_dict = my_dict.copy()
+print(new_dict)
+```
+
+### LUG'ATLARDA FOYDALI METODLAR
+- **`.get()` metodi:** Kalit bo'yicha qiymatni olish (kalit mavjud bo'lmasa, `None` qaytaradi).
+```python
+name = my_dict.get('name', 'Not Found')
+print(name)  # 'Alice'
+```
+- .**`.setdefault()` metodi:** Kalit mavjud bo'lmasa, qiymat qo'shadi va qaytaradi.
+```python
+country = my_dict.setdefault('country', 'USA')
+print(country)  # 'USA'
+print(my_dict)  # {'name': 'Alice', 'city': 'New York', 'country': 'USA'}
+```
