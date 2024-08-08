@@ -64,6 +64,15 @@ Python dasturlash tilida **to'plamlar**(`sets`) kesishishini amalga oshirish uch
 1. **`&` operatori:** Kesishish amali uchun maxsus operator.
 2. **`.intersection()` metodi:** Bir yoki bir nechta setlar bilan kesishish amalga oshiriladi.
 
+`&` operatori orqali ikkita to'plamni tanlab olamiz:
+```python
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+intersection_set = set1 & set2
+print(intersection_set)  # Natija: {3, 4}
+```
+`.intersection()` metodi:
 ```python
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
