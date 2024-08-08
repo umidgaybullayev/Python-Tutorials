@@ -95,13 +95,21 @@ print(intersection_set)  # Natija: set()
 Python dasturlash tilida setlar farqini topish oshirish uchun bir nechta usullar mavjud:
 
 - **`-` operatori:** .difference() metodi uchun maxsus operator.
-- **`difference()` metodi:** Bir yoki bir nechta to'plamlar(set) farqlarini tekshiradi.
 
-- `-` operatori
 ```python
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
 
 difference_set = set1 - set2
+print(difference_set)  # Natija: {1, 2}
+```
+
+- **`difference()` metodi:** Bir yoki bir nechta to'plamlar(set) farqlarini tekshiradi.
+
+```python
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+difference_set = set1.difference(set2)
 print(difference_set)  # Natija: {1, 2}
 ```
