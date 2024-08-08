@@ -18,14 +18,14 @@ my_set = {1, 2, 3, 4, 5}
 ```
 
 ### TO'PLAM(SET)GA E'LEMENT QO'SHISH
-To'plamga yangi e'lement qo'shish uchun `.add(value)` metodidan foydalaniladi:
+- To'plamga yangi e'lement qo'shish uchun `.add(value)` metodidan foydalaniladi:
 ```python
 my_set.add(5)
 print(my_set)  # {1, 2, 3, 4, 5}
 ```
 **Natija:** `{1, 2, 3, 4, 5}`
 
-To'plamga ko'proq e'lement qo'shish uchun `.update(values)` metodidan foydalanamiz:
+- To'plamga ko'proq e'lement qo'shish uchun `.update(values)` metodidan foydalanamiz:
 ```python
 my_set.update([6, 7, 8])
 print(my_set)  # {1, 2, 4, 5, 6, 7, 8}
