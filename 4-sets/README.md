@@ -32,7 +32,7 @@ print(my_set)  # {1, 2, 4, 5, 6, 7, 8}
 ```
 
 ### TO'PLAM(SET)DAN E'LEMENT O'CHIRISH
-To'plamdan e'lement o'lib tashlash uchun `.remove(value)` metodidan foydalaniladi:
+- To'plamdan e'lement o'lib tashlash uchun `.remove(value)` metodidan foydalaniladi:
 ```python
 my_set.remove(3)
 print(my_set)  # {1, 2, 4, 5}
@@ -40,7 +40,7 @@ print(my_set)  # {1, 2, 4, 5}
 
 **Natija:** `{1, 2, 4, 5}`
 
-Agar to'plamda e'lement mavjud bo'lmasa, `.remove(value)` xato beradi, `.discard(value)` xato bermaydi:
+- Agar to'plamda e'lement mavjud bo'lmasa, `.remove(value)` xato beradi, `.discard(value)` xato bermaydi:
 
 ```python
 my_set.remove(7)
@@ -48,7 +48,6 @@ print(my_set)  # {1, 2, 4, 5}
 ```
 
 **Natija:** `KeyError: 7` 
-
 
 ```python
 my_set.discard(7)
@@ -64,7 +63,7 @@ Python dasturlash tilida **to'plamlar**(`sets`) kesishishini amalga oshirish uch
 1. **`&` operatori:** Kesishish amali uchun maxsus operator.
 2. **`.intersection()` metodi:** Bir yoki bir nechta setlar bilan kesishish amalga oshiriladi.
 
-`&` operatori orqali ikkita to'plamni tanlab olamiz:
+- `&` operatori orqali ikkita to'plamni tanlab olamiz:
 ```python
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
@@ -72,7 +71,7 @@ set2 = {3, 4, 5, 6}
 intersection_set = set1 & set2
 print(intersection_set)  # Natija: {3, 4}
 ```
-`.intersection()` metodi:
+- `.intersection()` metodi:
 ```python
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
@@ -82,7 +81,7 @@ print(set1.intersection(set2))  # {3, 4}
 2-qatorda `set2` nomli to'plam yaratdik. <br>
 3-qatorda `set1` nomli to'plam uchun `.intersection()` metodiga `set2` nomli to'plamni berdik. Shunda ikkala to'plam ichida bir xil bo'lgan elementlarni chiqaradi.
 
-Agar kesishish bo'sh to'plam(set) bilan amalga oshirilsa, natija har doim bo'sh to'plam(set) bo'ladi:
+- Agar kesishish bo'sh to'plam(set) bilan amalga oshirilsa, natija har doim bo'sh to'plam(set) bo'ladi:
 ```python
 set1 = {1, 2, 3, 4}
 empty_set = set()
