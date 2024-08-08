@@ -150,3 +150,7 @@ Ikki to'plamdan umumiy elementlarni toping.
 - `set1 = {1, 2, 3, 4}` <br>
 `set2 = {3, 4, 5, 6}` <br>
 Birinchi to'plamda mavjud, ikkinchi to'plamda mavjud bo'lmagan elementlarni aniqlang.
+- `set1 = {1, 2, 3, 4}` <br>
+`set2 = {3, 4, 5, 6}` <br>
+`set3 = {5, 6, 7, 8}` <br>
+Uchta to'plamdan umumiy bo'lmagan elementlarni aniqlang.
