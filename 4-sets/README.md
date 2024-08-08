@@ -46,6 +46,7 @@ print(my_set)  # {1, 2, 4, 5}
 
 
 ```python
-my_set.discard(6)
+my_set.discard(7)
 print(my_set)  # {1, 2, 4, 5}
 ```
+**Natija:** `{1, 2, 3, 4, 5`
