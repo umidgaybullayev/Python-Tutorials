@@ -20,8 +20,8 @@ for fruit in fruits:
 `banana` <br>
 `cherry` <br>
 
-1-qatorda `fruits` degan ro'yhat yaratdik va uni mevalarni nomi bilan to'ldirdik.
-2-qatorda `for` tsiklini boshladik. Bu qator pythonga `fruits` degan ro'yhatdan har bir elementni olib uni yangi, `fruit` degan o'zgaruvchiga yuklashni buyuryapti (o'zgaruvchiga istalgan nomni berishimiz mumkin tushunarli bo'lishi uchun `fruit` deb nomladik).
+1-qatorda `fruits` degan ro'yhat yaratdik va uni mevalarni nomi bilan to'ldirdik. <br>
+2-qatorda `for` tsiklini boshladik. Bu qator pythonga `fruits` degan ro'yhatdan har bir elementni olib uni yangi, `fruit` degan o'zgaruvchiga yuklashni buyuryapti (o'zgaruvchiga istalgan nomni berishimiz mumkin tushunarli bo'lishi uchun `fruit` deb nomladik). <br>
 3-qatorda `fruit` degan o'zgaruvchining qiymatini terminalga chiqardik. Bu tsikl to `fruits` ro'yhatidagi elementlar tugaguncha takrorlanadi.
 
 > [!NOTE]
