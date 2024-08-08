@@ -82,3 +82,11 @@ print(set1.intersection(set2))  # {3, 4}
 2-qatorda `set2` nomli to'plam yaratdik. <br>
 3-qatorda `set1` nomli to'plam uchun `.intersection()` metodiga `set2` nomli to'plamni berdik. Shunda ikkala to'plam ichida bir xil bo'lgan elementlarni chiqaradi.
 
+Agar kesishish bo'sh to'plam(set) bilan amalga oshirilsa, natija har doim bo'sh to'plam(set) bo'ladi:
+```python
+set1 = {1, 2, 3, 4}
+empty_set = set()
+
+intersection_set = set1 & empty_set
+print(intersection_set)  # Natija: set()
+```
