@@ -147,6 +147,6 @@ Berilgan listdagi takroriy elementlarni olib tashlab, yangi to'plam yarating.
 - `set1 = {1, 2, 3, 4}` <br>
 `set2 = {3, 4, 5, 6}` <br>
 Ikki to'plamdan umumiy elementlarni toping.
-- set1 = {1, 2, 3, 4} <br>
-set2 = {3, 4, 5, 6} <br>
+- `set1 = {1, 2, 3, 4}` <br>
+`set2 = {3, 4, 5, 6}` <br>
 Birinchi to'plamda mavjud, ikkinchi to'plamda mavjud bo'lmagan elementlarni aniqlang.
