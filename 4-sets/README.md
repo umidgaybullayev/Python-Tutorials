@@ -113,3 +113,30 @@ set2 = {3, 4, 5, 6}
 difference_set = set1.difference(set2)
 print(difference_set)  # Natija: {1, 2}
 ```
+
+- To'plamlarda `.union()` (**birlashtirish**) metodi ikki yoki undan ortiq to'plamlarning barcha elementlarini yagona to'plamda birlashtirish uchun ishlatiladi. Natijada barcha to'plamlardan elementlar qaytariladi, takroriy elementlar faqat bitta marta saqlanadi.
+
+Python dasturlash tilida to'plamlarni birlashtirilishini amalga oshirish uchun bir nechta usullar mavjud:
+
+- **`|` operatori:** Birlashtirish amali uchun maxsus operator.
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+union_set = set1 | set2
+print(union_set)  # Natija: {1, 2, 3, 4, 5}
+```
+
+- **`.union()` metodi:** Bir yoki bir nechta to'plamlarni birlashtiradi.
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+union_set = set1.union(set2)
+print(union_set)  # Natija: {1, 2, 3, 4, 5}
+```
+
+> [!NOTE]
+> Birlashtirilgan to'plamda har bir element faqat bir marta bo‘ladi, ya'ni takroriy elementlar olib tashlanadi.
