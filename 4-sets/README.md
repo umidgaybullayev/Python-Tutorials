@@ -2,7 +2,7 @@
 
 ## 4-dars To'plamlar(sets)
 
-Python dasturlash tilida toplamlar(`sets`) — bu to‘plamga qo‘shilgan elementlar faqat bir martadan saqlanadigan va tartibi ahamiyatga ega bo‘lmagan ma'lumotlar tuzilmasi. Bu ma'lumotlar tuzilmasi quyidagi asosiy xususiyatlarga ega:
+Python dasturlash tilida to'plamlar(`sets`) — bu to‘plamga qo‘shilgan elementlar faqat bir martadan saqlanadigan va tartibi ahamiyatga ega bo‘lmagan ma'lumotlar tuzilmasi. Bu ma'lumotlar tuzilmasi quyidagi asosiy xususiyatlarga ega:
 - **Noyob elementlar:** Setdagi barcha elementlar yagona va takrorlanmaydi.
 - **Tartibga ega emas:** Setdagi elementlar tartibi muhim emas va ular indekslanmaydi.
 - **O'zgaruvchanlik:** Setlar o‘zgaruvchan bo‘lib, ularga yangi elementlarni qo‘shish yoki olib tashlash mumkin.
@@ -57,7 +57,7 @@ print(my_set)  # {1, 2, 4, 5}
 
 ### TO'PLAM OPERATSIYALARI
 
-To'plamlarda `.intersection()` metodi ikki yoki undan ortiq to'plamlar(sets) o'rtasida umumiy bo'lgan elementlarni aniqlash uchun ishlatiladi. Bu amalda natija sifatida barcha berilgan setlarda mavjud bo'lgan e'lementlar qaytariladi.
+To'plamlarda `.intersection()` metodi ikki yoki undan ortiq to'plamlar(sets) o'rtasida umumiy bo'lgan elementlarni aniqlash uchun ishlatiladi. Bu metodda natija sifatida barcha berilgan to'plamlarda mavjud bo'lgan e'lementlar qaytariladi.
 
 Python dasturlash tilida **to'plamlar**(`sets`) ni kesishishini amalga oshirish uchun bir nechta usullar mavjud:
 1. **`&` operatori:** Kesishish amali uchun maxsus operator.
