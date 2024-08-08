@@ -42,11 +42,7 @@ my_set.remove(7)
 print(my_set)  # {1, 2, 4, 5}
 ```
 
-Natija: <br>
-`Traceback (most recent call last):` <br>
-  `File "C:\Users\VICTUS\Desktop\Python-Tutorials\4-sets\main.py", line 3, in <module>` <br>
-    `my_set.remove(7)` <br>
-`KeyError: 7` 
+**Natija:** `KeyError: 7` 
 
 
 ```python
