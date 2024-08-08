@@ -143,7 +143,10 @@ print(union_set)  # Natija: {1, 2, 3, 4, 5}
 
 ## AMALIYOT
 - `my_list = [1, 2, 2, 3, 4, 4, 5]` <br>
-Berilgan listdagi takroriy elementlarni olib tashlab, yangi to'plam yaratish.
+Berilgan listdagi takroriy elementlarni olib tashlab, yangi to'plam yarating.
 - `set1 = {1, 2, 3, 4}` <br>
 `set2 = {3, 4, 5, 6}` <br>
 Ikki to'plamdan umumiy elementlarni toping.
+- set1 = {1, 2, 3, 4} <br>
+set2 = {3, 4, 5, 6} <br>
+Birinchi to'plamda mavjud, ikkinchi to'plamda mavjud bo'lmagan elementlarni aniqlang.
