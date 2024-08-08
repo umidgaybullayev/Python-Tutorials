@@ -154,3 +154,5 @@ Birinchi to'plamda mavjud, ikkinchi to'plamda mavjud bo'lmagan elementlarni aniq
 `set2 = {3, 4, 5, 6}` <br>
 `set3 = {5, 6, 7, 8}` <br>
 Uchta to'plamdan umumiy bo'lmagan elementlarni aniqlang.
+- `my_set = {5, 2, 9, 1, 7}` <br>
+Berilgan to'plamning eng kichik va eng katta elementlarini toping.
