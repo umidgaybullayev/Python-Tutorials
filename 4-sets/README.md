@@ -23,8 +23,13 @@ To'plamga yangi e'lement qo'shish uchun `.add(value)` metodidan foydalaniladi:
 my_set.add(5)
 print(my_set)  # {1, 2, 3, 4, 5}
 ```
-
 **Natija:** `{1, 2, 3, 4, 5}`
+
+To'plamga ko'proq e'lement qo'shish uchun `.update(values)` metodidan foydalanamiz:
+```python
+my_set.update([6, 7, 8])
+print(my_set)  # {1, 2, 4, 5, 6, 7, 8}
+```
 
 ### TO'PLAM(SET)DAN E'LEMENT O'CHIRISH
 To'plamdan e'lement o'lib tashlash uchun `.remove(value)` metodidan foydalaniladi:
@@ -35,7 +40,7 @@ print(my_set)  # {1, 2, 4, 5}
 
 **Natija:** `{1, 2, 4, 5}`
 
-Agar to'plamda e'lement mavjud bo'lmasa, `.remove()` xato beradi, `.discard()` xato bermaydi:
+Agar to'plamda e'lement mavjud bo'lmasa, `.remove(value)` xato beradi, `.discard(value)` xato bermaydi:
 
 ```python
 my_set.remove(7)
@@ -50,3 +55,4 @@ my_set.discard(7)
 print(my_set)  # {1, 2, 4, 5}
 ```
 **Natija:** `{1, 2, 3, 4, 5`
+
