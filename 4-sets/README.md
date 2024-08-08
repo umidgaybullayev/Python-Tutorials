@@ -34,3 +34,22 @@ print(my_set)  # {1, 2, 4, 5}
 ```
 
 **Natija:** `{1, 2, 4, 5}`
+
+Agar to'plamda e'lement mavjud bo'lmasa, `.remove()` xato beradi, `.discard()` xato bermaydi:
+
+```python
+my_set.remove(7)
+print(my_set)  # {1, 2, 4, 5}
+```
+
+Natija: <br>
+`Traceback (most recent call last):
+  File "C:\Users\VICTUS\Desktop\Python-Tutorials\4-sets\main.py", line 3, in <module>
+    my_set.remove(7)
+KeyError: 7` 
+
+
+```python
+my_set.discard(6)
+print(my_set)  # {1, 2, 4, 5}
+```
