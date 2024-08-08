@@ -103,7 +103,7 @@ print(new_dict)
 name = my_dict.get('name', 'Not Found')
 print(name)  # 'Alice'
 ```
-- .**`.setdefault()` metodi:** Kalit mavjud bo'lmasa, qiymat qo'shadi va qaytaradi.
+- **`.setdefault()` metodi:** Kalit mavjud bo'lmasa, qiymat qo'shadi va qaytaradi.
 ```python
 country = my_dict.setdefault('country', 'USA')
 print(country)  # 'USA'
