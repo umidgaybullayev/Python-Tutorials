@@ -109,3 +109,69 @@ country = my_dict.setdefault('country', 'USA')
 print(country)  # 'USA'
 print(my_dict)  # {'name': 'Alice', 'city': 'New York', 'country': 'USA'}
 ```
+
+## AMALIYOT
+
+- Berilgan `student` lug'atidagi age kalitining qiymatini `1` ga oshiring va yangi `grade` kalit-qiymat juftligini qo'shing.
+```python
+student = {
+    'name': 'Alice',
+    'age': 21,
+    'major': 'Mathematics'
+
+    # student = {'name': 'Alice', 'age': 22, 'major': 'Mathematics', 'grade': 'A'}
+}
+```
+
+- Berilgan `employee` lug'atidan `department` kalitini o'chiring va yangi lug'atni chop eting.
+```python
+employee = {
+    'name': 'John',
+    'age': 30,
+    'position': 'Manager',
+    'department': 'Sales'
+
+    # employee = {'name': 'John', 'age': 30, 'position': 'Manager'}
+}
+```
+
+- Berilgan `book` lug'atidagi barcha kalitlar va qiymatlarni `"Kalit: Qiymat"` formatida chop eting.
+```python
+book = {
+    'title': 'The Catcher in the Rye',
+    'author': 'J.D. Salinger',
+    'year': 1951,
+    'genre': 'Fiction'
+
+    # title: The Catcher in the Rye
+    # author: J.D. Salinger
+    # year: 1951
+    # genre: Fiction
+
+}
+```
+
+- `grades` lug'atidagi barcha qiymatlarning yig'indisini hisoblang va natijani chop eting.
+```python
+grades = {
+    'Math': 90,
+    'Science': 85,
+    'English': 92,
+    'History': 88
+
+    # Yig'indi: 355
+}
+```
+
+- `scores` lug'atidagi `eng kichik` va `eng katta` qiymatlarni toping va ularni chop eting.
+```python
+scores = {
+    'player1': 35,
+    'player2': 42,
+    'player3': 28,
+    'player4': 50
+
+    # Eng kichik qiymat: 28
+    # Eng katta qiymat: 50
+}
+```
