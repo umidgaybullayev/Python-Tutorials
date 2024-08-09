@@ -139,22 +139,6 @@ employee = {
 }
 ```
 
-- Berilgan `book` lug'atidagi barcha kalitlar va qiymatlarni `"Kalit: Qiymat"` formatida chop eting.
-```python
-book = {
-    'title': 'The Catcher in the Rye',
-    'author': 'J.D. Salinger',
-    'year': 1951,
-    'genre': 'Fiction'
-
-    # title: The Catcher in the Rye
-    # author: J.D. Salinger
-    # year: 1951
-    # genre: Fiction
-
-}
-```
-
 - `grades` lug'atidagi barcha qiymatlarning yig'indisini hisoblang va natijani chop eting.
 ```python
 grades = {
